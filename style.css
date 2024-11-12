@@ -1,0 +1,78 @@
+/* The CSS code you provided is styling the elements of a web page. Here's a breakdown of what each part of the code is doing: */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #5F0A87, #A4508B);
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 600px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container h1 {
+    font-size: 2.5rem;
+    color: #10c32b;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .input_date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #10c32b;
+    padding: 5px 15px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  input[type="date"] {
+    flex: 1;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  button {
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff5a5f;
+    transform: scale(1.08);
+  }
+  
+  #Result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #10c32b;
+  }
